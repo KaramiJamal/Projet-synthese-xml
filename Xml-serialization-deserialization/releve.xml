@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<releve RIB="04C045CCSD034340VDFREE53">
+    <dateReleve>2023-01-15T14:44:05.211+01:00</dateReleve>
+    <solde>1000.0</solde>
+    <operations dateDebut="2023-01-15T14:44:05.211+01:00" dateFin="2023-01-15T14:44:05.211+01:00">
+        <operations type="DEBIT" date="2023-01-15T14:44:05.212+01:00" montant="3000.0" description="Retrait de 3000DH"/>
+        <operations type="CREDIT" date="2023-01-15T14:44:05.212+01:00" montant="6000.0" description="Virement de 6000DH"/>
+        <operations type="DEBIT" date="2023-01-15T14:44:05.212+01:00" montant="5000.0" description="Retrait de 3000DH"/>
+        <operations type="CREDIT" date="2023-01-15T14:44:05.212+01:00" montant="3000.0" description="Virement de 3000DH"/>
+    </operations>
+</releve>

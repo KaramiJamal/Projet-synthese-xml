@@ -1,0 +1,79 @@
+<!DOCTYPE HTML><html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Releve bancaire</title>
+      <style>
+                    html{
+                        font-size : 16px;
+                        font-famly : monospace;                        
+                    }
+                    table{
+                        width : 100%;
+                    }
+                    table, tr, th, td{                    
+                        border : 1px solid green;   
+                        border-collapse: collapse;
+                    }
+                    header{
+                      background : black;
+                      color : white;
+                      width : 60%;
+                      margin : auto;
+                    }
+                    section{
+                        width : 60%;
+                        margin : auto;
+                        background : rgba(202,40,45,0.2);
+                    }
+                </style>
+   </head>
+   <body>
+      <header>
+         Releve du compte fait le,  01-01-2023<br>                
+         RIB : wrr_sg3_dwb<br>
+         Solde : 1000DH<br><br>
+         Les opérations du 11-01-2023 jusqu'à 15-01-2023<br></header>
+      <section>
+         <table>
+            <tr>
+               <th>Date</th>
+               <th>Montant</th>
+               <th>Type</th>
+               <th>Description</th>
+            </tr>
+            <tr>
+               <td>11-01-2023</td>
+               <td>2000</td>
+               <td>DEBIT</td>
+               <td>Retrait de 2000dh</td>
+            </tr>
+            <tr>
+               <td>12-01-2023</td>
+               <td>4000</td>
+               <td>CREDIT</td>
+               <td>Virsement de 4000dh</td>
+            </tr>
+            <tr>
+               <td>13-01-2023</td>
+               <td>5000</td>
+               <td>CREDIT</td>
+               <td>Virsement de 5000dh</td>
+            </tr>
+            <tr>
+               <td>15-01-2023</td>
+               <td>6000</td>
+               <td>DEBIT</td>
+               <td>Retrait de 6000dh</td>
+            </tr>
+            <tr style="background : orange">
+               <td colspan="3">Total Débit</td>
+               <td>8000</td>
+            </tr>
+            <tr style="background : orange">
+               <td colspan="3">Total CREDIT</td>
+               <td>9000</td>
+            </tr>
+         </table>
+      </section>
+   </body>
+</html>

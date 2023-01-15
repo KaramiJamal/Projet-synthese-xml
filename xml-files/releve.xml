@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE releve SYSTEM "releve.dtd">
+<releve RIB="wrr_sg3_dwb">
+    <dateReleve>01-01-2023</dateReleve>
+    <solde>1000</solde>
+    <operations dateDebut="11-01-2023" dateFin="15-01-2023">
+        <operation type="DEBIT" date="11-01-2023" montant="2000" description="Retrait de 2000dh"/>
+        <operation type="CREDIT" date="12-01-2023" montant="4000" description="Virsement de 4000dh"/>
+        <operation type="CREDIT" date="13-01-2023" montant="5000" description="Virsement de 5000dh"/>
+        <operation type="DEBIT" date="15-01-2023" montant="6000" description="Retrait de 6000dh"/>
+    </operations>
+</releve>

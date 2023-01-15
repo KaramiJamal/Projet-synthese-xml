@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<releve xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="releve.xsd" RIB="wrr_sg3_dwb">
+    
+    <dateReleve>2023-01-15</dateReleve>
+        <solde>1000</solde>
+    <operations dateDebut="2023-01-15" dateFin="2023-01-15">
+        <operation type="DEBIT" date="2023-01-15" montant="2000" description="Retrait de 2000dh"/>
+        <operation type="CREDIT" date="2023-01-15" montant="4000" description="Virsement de 4000dh"/>
+        <operation type="CREDIT" date="2023-01-15" montant="5000" description="Virsement de 5000dh"/>
+        <operation type="DEBIT" date="2023-01-15" montant="6000" description="Retrait de 6000dh"/>
+        </operations>
+    </releve>
