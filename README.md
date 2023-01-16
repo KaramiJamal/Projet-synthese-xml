@@ -19,10 +19,12 @@
 
 #  Créer une feuille de style XSL qui permet d’afficher les toutes les données de ce document XML au format HTML en affichant le total des opérations de débit et le total des opérations de crédit.
 
+![dtd-and-test](screenshots/releve-xsl-code.png)
 ![dtd-and-test](screenshots/releve-xsl.png)
 
 #  Créer une feuille de style XSL qui permet d’afficher au format HTML les opérations de type CREDIT d’un relevé bancaire.
 
+![dtd-and-test](screenshots/releve-xsl-credit-code.png)
 ![dtd-and-test](screenshots/releve-xsl-credit.png)
 
 # B. Partie Mapping Objet XML avec Jax Binding :  3 Créer une application Java qui permet de créer un Objet Releve avec quelques opérationset de sérialiser ces données dans un fichier XML.
@@ -55,7 +57,7 @@
 
 ![dtd-and-test](screenshots/soap-client-result.png)
 
-# D. Web services RESTful avec JAXRS ou Spark : Tester Le Web service avec un client REST (Browser Web)
+# D. Web services RESTful avec Spark : Tester Le Web service avec un client REST (Browser Web)
 
 ![dtd-and-test](screenshots/Rest-ws-api.png)
 
