@@ -22,7 +22,8 @@ public class ReleveDiserializationApplication {
         System.out.println("RIB : " + releve.getRib());
         System.out.println("Date : " + dateformater(releve.getDateReleve()));
         System.out.println("Solde : " + releve.getSolde());
-        System.out.println("\nListe des opérations du " + dateformater(releve.getOperations().getDateDebut()) + " jusqu'à " + dateformater(releve.getOperations().getDateFin()));
+        System.out.println("\nListe des opérations du " + dateformater(releve.getOperations().getDateDebut())
+                + " jusqu'à " + dateformater(releve.getOperations().getDateFin()));
         System.out.println("------------------------------------------------------------------");
         System.out.println("Date\t\t\t|\tType\t|\tMontant\t|\tDescription\t\t\t|");
         System.out.println("------------------------------------------------------------------");
